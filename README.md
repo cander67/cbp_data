@@ -6,7 +6,7 @@ This project was submitted as required coursework for the Udacity Data Analyst N
 
 Contents:
 1) Project notebook as pollution_and_wages.ipynb
-2) Datasets for analysis as Archive.zip
+2) Datasets for analysis as datasets.zip
     *   2012_to_2017_NAICS.csv
     *   all_geocodes_v2021.csv
     *   CAP_HAP_national_2017_v0.1_864d573.csv
