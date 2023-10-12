@@ -15,7 +15,7 @@ This project was completed using the following setup:
 
 The following third party Python libraries were used:
 - requests
-- Numpy
+- NumPy
 - Pandas
 - Matplotlib
 - Seaborn
