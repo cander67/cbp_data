@@ -1,24 +1,27 @@
 Pollution Factors and Wage Growth by Industry
 =====================
 
-This project downloads, parses, cleans, and analyzes EPA pollution factors, US Census Bureau GDP, and County Business Patterns data for 2017-2021. The current scope is analysis of pollution emissions by industry and analysis of wage growth within polluting industries. This project was submitted as a course requirement for the Udacity Data Analyst Nanodegree program.
+This project downloads, parses, cleans, and analyzes EPA pollution factors, US Census Bureau GDP, and County Business Patterns data for 2017-2021. The current scope is analysis of pollution emissions by industry and analysis of wage growth within polluting industries.
 
 Pre-requisites
 ---------------------
 
-This project was completed using the following setup:
+Local deployment can be accomplished by creating a virtual environment using Python 3.11 and installing the necessary dependencies as described below.
+
+Install dependencies from the terminal using the following command: `pip install -r requirements.txt`
+
+OR
 
 - Python 3.11
 - Jupyter notebook 6.5.4
-- API keys
-- etc.
+- [API key](https://api.census.gov/data/key_signup.html)
 
 The following third party Python libraries were used:
-- requests
-- NumPy
-- Pandas
-- Matplotlib
-- Seaborn
+- requests 2.31.0
+- NumPy 1.26.4
+- Pandas 2.2.1
+- Matplotlib 3.8.3
+- Seaborn 0.13.2
 
 County Business Pattern data was accessed by API. Documentation for the US Census Bureau API can be found at https://www.census.gov/data/developers/guidance/api-user-guide.html. 
 
